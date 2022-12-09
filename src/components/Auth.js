@@ -1,9 +1,9 @@
-import { axios } from "axios";
+
 import { Log } from "./LogIn";
-import { useState, useEffect, react } from 'react';
+import { useState, useEffect } from 'react';
 import jwt_decode from 'jwt-decode';
 import { useNavigate } from "react-router";
-import Dashboard from './dashboard';
+
 export function Auth() {
 
     const google = window.google;
