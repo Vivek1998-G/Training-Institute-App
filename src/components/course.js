@@ -1,7 +1,7 @@
 import React from "react";
 import Dashboard from "./dashboard";
  import  Axios  from "axios";
- import get  from "react-axios";
+
  export const Course=()=>{
   function Vivo(){
   Axios.get('http://localhost:3001/student/course')
