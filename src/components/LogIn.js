@@ -1,7 +1,7 @@
 import './Log.css'
-import {react,useState} from 'react'
+import {useState} from 'react'
 import{useNavigate} from 'react-router';
-import Dashboard from './dashboard';
+
 
 
 export const Log=()=>{
