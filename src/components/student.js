@@ -1,8 +1,7 @@
 import React from 'react'
-import Dashboard from './dashboard';
+
 import './student.css'
 import Axios from 'axios';
-import get from 'react-axios';
 
 function Edite(ind){
  
