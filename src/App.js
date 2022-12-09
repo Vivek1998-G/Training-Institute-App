@@ -14,7 +14,7 @@ function App() {
   socket.on("connection");
     
   socket.on("generateID", (result) =>{
-  let  socketId =result;
+  
     console.log("socketID", result);
   });
   
