@@ -27,14 +27,14 @@ export function Auth() {
             document.getElementById("signInDiv"),
             { size: "large" }
         );
-    }, [])
+    })
 
     return (
         <div className='login'>
             <Log />
             <div id="signInDiv"></div>
             <div>
-                <img src={user.picture}></img>
+                <img src={user.picture} alt=""></img>
                 <h3>{user.name}</h3>
             </div>
 
