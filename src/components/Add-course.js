@@ -1,12 +1,8 @@
 import React from "react";
-import Dashboard from "./dashboard";
 import './course.css'
 import './student.css'
 import Axios from "axios";
 import { useState } from "react";
-import post from "react-axios";
-
-
 export const AddCourse = () => {
   const [course, setCourse] = useState("")
 
