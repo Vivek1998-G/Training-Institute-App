@@ -1,9 +1,9 @@
 import React from "react";
-import Dashboard from "./dashboard";
+
 import './student.css'
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import  Axios from "axios";
-import  Post  from "react-axios";
+
 
 
 export const AddStudent = () => {
