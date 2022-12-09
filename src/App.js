@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { React } from 'react';
-import ReactDOM from 'react-dom/client';
 import { Auth } from './components/Auth';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Dashboard from './components/dashboard';
@@ -14,7 +13,7 @@ function App() {
   const socket=io("http://localhost:3000");
   socket.on("connection");
   var socketId;
-      // receiveing generated socket id
+    
   socket.on("generateID", (result) =>{
     socketId =result;
     console.log("socketID", result);
